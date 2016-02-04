@@ -1,9 +1,9 @@
 {
-  "name": "CHANGE THIS : Extension boilerplate",
+  "name": "Chrome Diagrammer",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com",
-  "homepage_url": "http://lumosity.com",
+  "description": "Use code blocks in markdown to render common js graphs",
+  "homepage_url": "https://www.github.com/jdoconnor",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -17,12 +17,12 @@
     "persistent": true
   },
   "permissions": [
-    "https://*.github.com/lumoslabs/*"
+    "https://*.github.com/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://*.github.com/lumoslabs/*"
+        "https://*.github.com/*"
       ],
       "css": [
         "src/inject/inject.css"
