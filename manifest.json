@@ -33,9 +33,9 @@
         "https://*.github.com/lumoslabs/*"
       ],
       "js": [
-        "js/raphael/raphael.min.js",
-        "js/flowchart/flowchart.min.js",
-        "js/mermaid/mermaid.min.js",
+        "js/raphael/raphael.js",
+        "js/flowchart/flowchart.js",
+        "js/mermaid/mermaid.js",
         "src/inject/inject.js"
       ]
     }
